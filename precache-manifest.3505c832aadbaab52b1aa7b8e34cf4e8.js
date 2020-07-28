@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "473adcdc8f8253333ecb789dc8867945",
+    "revision": "1e5a0c88ac3c1305278c6229d24d49cb",
     "url": "/trident/index.html"
   },
   {
-    "revision": "076111857c95863c681e",
+    "revision": "3b4d9918a3e2390f6811",
     "url": "/trident/static/css/main.f502d89f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trident/static/js/2.1bb7a622.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "076111857c95863c681e",
-    "url": "/trident/static/js/main.adc21018.chunk.js"
+    "revision": "3b4d9918a3e2390f6811",
+    "url": "/trident/static/js/main.80a76620.chunk.js"
   },
   {
     "revision": "6cf6f832e64070bef366",
