@@ -56,7 +56,16 @@
     #coldDrinks h2,
     #eggDishes h2,
     #eggWagons h2,
-    #fromTheGriddle h2 {
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
         font-size: 115%;
         margin: 7% 0 !important;
         text-align: center;
@@ -93,14 +102,17 @@
         margin-left: 0% !important;
         padding-top: 0%;
     }
-    #eggWagons i,
-    #fromTheGriddle i {
-        display: none;
+    #extras .float-margin {
+        margin-left: 34% !important;
+        padding-top: 5%;
     }
-
+    
     #fromTheGriddle .float-margin {
         margin-left: 0% !important;
         padding-top: 5.20%;
+    }
+    .arrow.left {
+        display: none !important;
     }
 }
 
@@ -140,11 +152,22 @@
     #coldDrinks h2,
     #eggDishes h2,
     #eggWagons h2,
-    #fromTheGriddle h2 {
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
         font-size: 115%;
         margin: 7% 0 !important;
         text-align: center;
     }
+
+
 
     #drinks .float-margin {
         margin-left: 25% !important;
@@ -177,9 +200,8 @@
         margin-left: 5% !important;
         padding-top: 5.5%;
     }
-    #eggWagons i,
-    #fromTheGriddle i {
-        display: none;
+    .arrow.left {
+        display: none !important;
     }
 
     #fromTheGriddle .float-margin {
@@ -222,7 +244,16 @@
     #coldDrinks h2,
     #eggDishes h2,
     #eggWagons h2,
-    #fromTheGriddle h2 {
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
         font-size: 115%;
         margin: 7% 0 !important;
         text-align: center;
@@ -259,9 +290,8 @@
         margin-left: 5% !important;
         padding-top: 5.5%;
     }
-    #eggWagons i,
-    #fromTheGriddle i {
-        display: none;
+    .arrow.left {
+        display: none !important;
     }
 
     #fromTheGriddle .float-margin {
@@ -305,7 +335,16 @@
     #coldDrinks h2,
     #eggDishes h2,
     #eggWagons h2,
-    #fromTheGriddle h2 {
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
         font-size: 115%;
         margin: 7% 0 !important;
         text-align: center;
@@ -342,9 +381,8 @@
         margin-left: 20% !important;
         padding-top: 5.5%;
     }
-    #eggWagons i,
-    #fromTheGriddle i {
-        display: none;
+    .arrow.left {
+        display: none !important;
     }
 
     #fromTheGriddle .float-margin {
@@ -388,7 +426,16 @@
     #coldDrinks h2,
     #eggDishes h2,
     #eggWagons h2,
-    #fromTheGriddle h2 {
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
         font-size: 115%;
         margin: 7% 0 !important;
         text-align: center;
@@ -406,8 +453,7 @@
 
     #hotDrinks .back-to-menu,
     #coldDrinks .back-to-menu,
-    #burgers .back-to-menu
-    {
+    #burgers .back-to-menu {
         display: none;
     }
 
@@ -425,9 +471,8 @@
         margin-left: 20% !important;
         padding-top: 5.5%;
     }
-    #eggWagons i,
-    #fromTheGriddle i {
-        display: none;
+    .arrow.left {
+        display: none !important;
     }
 
     #fromTheGriddle .float-margin {
@@ -471,7 +516,16 @@
     #coldDrinks h2,
     #eggDishes h2,
     #eggWagons h2,
-    #fromTheGriddle h2 {
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
         font-size: 115%;
         margin: 7% 0 !important;
         text-align: center;
@@ -507,9 +561,8 @@
         margin-left: 20% !important;
         padding-top: 5.5%;
     }
-    #eggWagons i,
-    #fromTheGriddle i {
-        display: none;
+    .arrow.left {
+        display: none !important;
     }
 
     #fromTheGriddle .float-margin {
@@ -551,7 +604,16 @@
     #coldDrinks h2,
     #eggDishes h2,
     #eggWagons h2,
-    #fromTheGriddle h2 {
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
         font-size: 115%;
         margin: 7% 0 !important;
         text-align: center;
@@ -587,9 +649,8 @@
         margin-left: 10% !important;
         padding-top: 5.5%;
     }
-    #eggWagons i,
-    #fromTheGriddle i {
-        display: none;
+    .arrow.left {
+        display: none !important;
     }
 
     #fromTheGriddle .float-margin {
@@ -625,13 +686,22 @@
         min-width: 160% !important;
     }
 
-    #categories h2,
+     #categories h2,
     #drinks h2,
     #hotDrinks h2,
     #coldDrinks h2,
     #eggDishes h2,
     #eggWagons h2,
-    #fromTheGriddle h2 {
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
         font-size: 115%;
         margin: 7% 0 !important;
         text-align: center;
@@ -667,9 +737,8 @@
         margin-left: 10% !important;
         padding-top: 5.5%;
     }
-    #eggWagons i,
-    #fromTheGriddle i {
-        display: none;
+    .arrow.left {
+        display: none !important;
     }
 
     #fromTheGriddle .float-margin {
@@ -680,5 +749,91 @@
 
 /*Galaxy 5s*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+    #app-js {
+        /* overflow-x: hidden !important; */
+    }
+    .navbar {
+        overflow: hidden !important
+    }
+
+    .social-icons .fa {
+        font-size: 1em !important;
+    }
+    /*Change icons circle size and color here*/
+    .social-icons .fa {
+        width: 40px !important;
+	    height: 40px !important;
+	    line-height: 40px !important;
+    }
+
+    .social-media-icons-container {
+        margin-bottom: -7%;
+    }
+    .navbar-brand {
+        min-width: 160% !important;
+    }
+
+    #categories h2,
+    #drinks h2,
+    #hotDrinks h2,
+    #coldDrinks h2,
+    #eggDishes h2,
+    #eggWagons h2,
+    #fromTheGriddle h2,
+    #extras h2,
+    #breakfast-bowls h2,
+    #sides h2,
+    #soups h2, 
+    #crispy h2,
+    #salads h2, 
+    #shareables h2,
+    #burgers h2,
+    #sandwiches h2 {
+        font-size: 115%;
+        margin: 7% 0 !important;
+        text-align: center;
+    }
+
+    #drinks .float-margin {
+        margin-left: 16% !important;
+        padding-top: 6.1%;
+    }
+
+    #hotDrinks .float-margin {
+        margin-left: 12% !important;
+        padding-top: 6.1%;
+    }
+
+    #hotDrinks .back-to-menu,
+    #coldDrinks .back-to-menu,
+    #burgers .back-to-menu
+    {
+        display: none;
+    }
+
+    #coldDrinks .float-margin {
+        margin-left: 12% !important;
+        padding-top: 6.1%;
+    }
+
+    #eggDishes .float-margin {
+        margin-left: 16% !important;
+        padding-top: 6.1%;
+    }
+
+    #eggWagons .float-margin {
+        margin-left: 0% !important;
+        padding-top: 0%;
+    }
+
+    #fromTheGriddle .float-margin {
+        margin-left: 0% !important;
+        padding-top: 5.20%;
+    }
+    
+    .arrow.left {
+        display: none !important;
+    }
 
 }

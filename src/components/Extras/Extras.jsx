@@ -67,7 +67,7 @@ const Extras = () => {
     <React.Fragment>
     <Fade>
 
-    <div style={{ paddingTop: "3%" }} id="eggDishes">
+    <div style={{ paddingTop: "3%" }} id="extras">
         
       <div style={{display: 'flex'}}>
         
