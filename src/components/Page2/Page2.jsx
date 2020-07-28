@@ -11,7 +11,7 @@ const Page2 = () => {
 
                 <Container id="page-2">
                 <div style={{height: '100vh'}}>
-                        <h1>Page 2</h1>
+                        <h1>Trident 2</h1>
                     </div>
 
                 </Container>
