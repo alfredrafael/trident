@@ -1,21 +1,41 @@
-#page-1 h1 { 
-    color: grey !important;
+#categories {
+
 }
+
+.card-header {
+    background-color: #7a1f1f !important;
+}
+
+.highlight-on-hover {
+    transition: transform .5s;
+    position: relative;
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+}
+
+.highlight-on-hover:hover { 
+    box-shadow: 0 20px 70px 5px rgba(0,0,0,.15); 
+    transform: translateY(-10px); 
+    text-decoration: none;
+}
+
+
+
+
 
 /*---LAPTOPS AND ABOVE---*/
 
 /*-- specific for this project's <h1>--*/
 
 @media screen and (max-width: 1122px) and (-webkit-min-device-pixel-ratio: 1) {
-   
+
 }
 
 
 @media screen and (max-width: 1072px) and (-webkit-min-device-pixel-ratio: 1) {
-  
-    
 }
-
 
 @media screen and (max-width: 992px) and (-webkit-min-device-pixel-ratio: 1) {
    
