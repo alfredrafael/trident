@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/trident/static/css/main.f502d89f.chunk.css",
+    "main.js": "/trident/static/js/main.adc21018.chunk.js",
+    "main.js.map": "/trident/static/js/main.adc21018.chunk.js.map",
+    "runtime-main.js": "/trident/static/js/runtime-main.46d83435.js",
+    "runtime-main.js.map": "/trident/static/js/runtime-main.46d83435.js.map",
+    "static/js/2.1bb7a622.chunk.js": "/trident/static/js/2.1bb7a622.chunk.js",
+    "static/js/2.1bb7a622.chunk.js.map": "/trident/static/js/2.1bb7a622.chunk.js.map",
+    "index.html": "/trident/index.html",
+    "precache-manifest.ece63b1348650bda314e9bfa79e6ef5e.js": "/trident/precache-manifest.ece63b1348650bda314e9bfa79e6ef5e.js",
+    "service-worker.js": "/trident/service-worker.js",
+    "static/css/main.f502d89f.chunk.css.map": "/trident/static/css/main.f502d89f.chunk.css.map",
+    "static/js/2.1bb7a622.chunk.js.LICENSE.txt": "/trident/static/js/2.1bb7a622.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46d83435.js",
+    "static/js/2.1bb7a622.chunk.js",
+    "static/css/main.f502d89f.chunk.css",
+    "static/js/main.adc21018.chunk.js"
+  ]
+}
