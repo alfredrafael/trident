@@ -7,25 +7,29 @@ import './footer.css';
 const AppFooter = () => {
     return (
         <React.Fragment>
-            <StyledFooter id="footer">
-                <Container>
-
+            <div id="footer"> 
+            <Container>
+            
 
                     <Row>
 
                         <Col>
-                            <span> Copyright Ⓒ [...], 2020 </span>
+                            <span style={{float: 'right', marginRight: '10%', marginTop: '-4.3%'}}> Trident Booksellers & Cafe <br/> 338 Newbury Street <br/> Boston, MA 02115 | 617-267-8688</span>
                         </Col>
 
                         <Col>
-                            <img src='https://alfredorafael.com/wp-content/uploads/2019/02/myLogo.png' alt='Alfredo Rafael Logo' />
+                            <img 
+                            src='https://www.alfredorafael.com/wp-content/uploads/2020/07/AlfredoTridentLogoWhite.png' 
+                            style={{float: 'right', marginRight: '10%', marginTop: '-4.3%'}}
+                            alt='Trident Logo' />
+                            
                         </Col>
 
                     </Row>
 
                 </Container>
 
-            </StyledFooter>
+            </div>
         </React.Fragment>
     )
 }
