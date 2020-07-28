@@ -7,36 +7,37 @@
                 {"name": "Egg Dishes", "description": "Select among our hearthy omeletts, eggs benny and scramble egg dishes", "categoryUrl": "/egg-dishes"},
                 {"name": "Trident Eggwagons", "description": "Take a look at our Eggwagons selection! Here goes more information", "categoryUrl": "/eggwagons"},
                 {"name": "From The Griddle", "description": "Here goes a short description of our 'From the Griddle' category", "categoryUrl": "/from-the-griddle"},
-                {"name": "Extras", "description": "Here goes a short description of our 'From the Griddle' category", "categoryUrl": "/extras"},
                 {"name": "Breakfast bowls", "description": "Here goes a short description of our 'Breakfast Bowls'", "categoryUrl": "/breakfast-bowls"},
-                {"name": "Sides", "description": "Here goes a short description of our 'Sides'", "categoryUrl": "/sides"},
-                {"name": "Soups", "description": "Here goes a short description of our 'Soups' category" , "categoryUrl": "/soups"},
                 {"name": "Crispy & Delicious", "description": "Here goes a short description of our 'Crispy and Delicious' category", "categoryUrl": "/crispy-and-delicious"},
+                {"name": "Soups", "description": "Here goes a short description of our 'Soups' category" , "categoryUrl": "/soups"},
                 {"name": "Salads", "description": "Here goes a short description of our 'Salads' category", "categoryUrl": "/salads"},
                 {"name": "Trident Bowls", "description": "Here goes a short description of our 'Trident Bowls' category", "categoryUrl": "/trident-bowls"},
                 {"name": "Shareables", "description": "Here goes a short description of our 'Shareables' category", "categoryUrl": "/shareables"},
                 {"name": "Burgers", "description": "From the classics to our signature burgers, take a look at our selection here", "categoryUrl": "/burgers"},
-                {"name": "Sandwiches", "description": "Here goes a short description of our 'Sandwiches' category", "categoryUrl": "/sandwiches"}
+                {"name": "Sandwiches", "description": "Here goes a short description of our 'Sandwiches' category", "categoryUrl": "/sandwiches"},
+                {"name": "Sides", "description": "Here goes a short description of our 'Sides' category", "categoryUrl": "/sides"},
+                {"name": "Extras", "description": "Here goes a short description of our 'From the Griddle' category", "categoryUrl": "/extras"},
+                {"name": "Dessert", "description": "Here goes a short description of our 'From the Griddle' category", "categoryUrl": "/"}
             ],
 
             "sides": [
                 {"name": "Saugage patties, bacon, turkey bacon, or canadian bacon", "price": "3.95", "description": ""},
                 {"name": "Mega Tots", "price": "5.95", "description": "Three jumbo golden tater tots stuffed with gooey cheddar cheese"},
-                {"name": "Beyond Sausage", "price": "4.25", "description": ""},
-                {"name": "Smoked Salmon", "price": "7.95", "description": ""},
-                {"name": "Homemade Corned beef hash", "price": "7.50", "description": ""},
-                {"name": "Home fries", "price": "3.95", "description": ""},
-                {"name": "Vanilla or Straberry Yogurt", "price": "3.95", "description": ""}
+                {"name": "Beyond Sausage", "price": "4.25", "description": "Here goes a short description of the Beyond Saugage"},
+                {"name": "Smoked Salmon", "price": "7.95", "description": "Here goes a short description of the Smoked Salmon"},
+                {"name": "Homemade Corned beef hash", "price": "7.50", "description": "Here goes a short description of the Smoked Salmon"},
+                {"name": "Home fries", "price": "3.95", "description": "Here goes a short description of the Fries (if any)"},
+                {"name": "Vanilla or Straberry Yogurt", "price": "3.95", "description": "Here goes a short description these yougurts"}
             ],
             
             "extras": [
-                {"name": "Add Pure Vermont maple syrup", "price": "2.95$", "description": "Nice burger"},
-                {"name": "Single Egg", "price": "2.75", "description": "Another nice burger"},
-                {"name": "Single Pancake", "price": "4.75", "description": ""},
-                {"name": "Homemade Muffin", "price": "2.95", "description": ""},
-                {"name": "English Muffin", "price": "2.95", "description": ""},
-                {"name": "Iggy's Sourdough Toast", "price": "2.50", "description": ""},
-                {"name": "Toasted Bagel with Cream Cheese", "price": "3.95", "description": ""}  
+                {"name": "Add Pure Vermont maple syrup", "price": "2.95$", "description": "Here goes a short description"},
+                {"name": "Single Egg", "price": "2.75", "description": "Here goes a short description"},
+                {"name": "Single Pancake", "price": "4.75", "description": "Here goes a short description"},
+                {"name": "Homemade Muffin", "price": "2.95", "description": "Here goes a short description"},
+                {"name": "English Muffin", "price": "2.95", "description": "Here goes a short description"},
+                {"name": "Iggy's Sourdough Toast", "price": "2.50", "description": "Here goes a short description"},
+                {"name": "Toasted Bagel with Cream Cheese", "price": "3.95", "description": "Here goes a short description"}  
             ],
 
             "eggDishes": [
@@ -95,14 +96,14 @@
             ],
 
             "shareables": [
-                {"name": "Humus Plate", "price": "8.50", "description": ""},
-                {"name": "Breakfast Pizza", "price": "12", "description": ""},
-                {"name": "Butternut Squash Tacos", "price": "9", "description": ""}, 
-                {"name": "Tomatillo Tacos", "price": "9", "description": ""},
-                {"name": "Nachos", "price": "9.50", "description": ""},
-                {"name": "Boneless Buffalo or BBQ Chicken Tenders", "price": "6", "description": ""},
-                {"name": "Chicken Quesadilla", "price": "5", "description": ""},
-                {"name": "Portabella Quesadilla", "price": "5.25", "description": ""}
+                {"name": "Humus Plate", "price": "8.50", "description": "Here goes a short description"},
+                {"name": "Breakfast Pizza", "price": "12", "description": "Here goes a short description"},
+                {"name": "Butternut Squash Tacos", "price": "9", "description": "Here goes a short description"}, 
+                {"name": "Tomatillo Tacos", "price": "9", "description": "Here goes a short description"},
+                {"name": "Nachos", "price": "9.50", "description": "Here goes a short description"},
+                {"name": "Boneless Buffalo or BBQ Chicken Tenders", "price": "6", "description": "Here goes a short description"},
+                {"name": "Chicken Quesadilla", "price": "5", "description": "Here goes a short description"},
+                {"name": "Portabella Quesadilla", "price": "5.25", "description": "Here goes a short description"}
             ],
 
             "salads": [
@@ -134,19 +135,19 @@
             ],
 
             "sandwiches": [
-                {"name": "Deluxe Grilled Cheese", "price": "11.95", "description": "Nice burger"},
-                {"name": "Cape Codder", "price": "12.95", "description": "Another nice burger"},
-                {"name": "Baha Chicken", "price": "13.95", "description": "yes!"}, 
+                {"name": "Deluxe Grilled Cheese", "price": "11.95", "description": "Here goes a short description"},
+                {"name": "Cape Codder", "price": "12.95", "description": "Here goes a short description"},
+                {"name": "Baha Chicken", "price": "13.95", "description": "Here goes a short description"}, 
                 {"name": "Chimato", "price": "13.95", "description": "Nice burger"},
-                {"name": "Spicy Korean BBQ Sandwich", "price": "13.95", "description": "Another nice burger"},
-                {"name": "French Dip", "price": "13.95", "description": "yes!"},
-                {"name": "Prosciutto & Brie", "price": "13.95", "description": "Nice burger"},
-                {"name": "Falafel Wrap", "price": "12.95", "description": "Another nice burger"},
-                {"name": "Turvacado", "price": "12.95", "description": "yes!"},
-                {"name": "Fresh Mozzarella B.L.T", "price": "11.95", "description": "Nice burger"},
-                {"name": "Spicy Turkey Club", "price": "13.95", "description": "Another nice burger"},
-                {"name": "Avocado & Harvati Melt", "price": "12.95", "description": "yes!"},
-                {"name": "Tuna & Swiss Melt", "price": "11.95", "description": "yes!"} 
+                {"name": "Spicy Korean BBQ Sandwich", "price": "13.95", "description": "Here goes a short description"},
+                {"name": "French Dip", "price": "13.95", "description": "Here goes a short description"},
+                {"name": "Prosciutto & Brie", "price": "13.95", "description": "Here goes a short description"},
+                {"name": "Falafel Wrap", "price": "12.95", "description": "Here goes a short description"},
+                {"name": "Turvacado", "price": "12.95", "description": "Here goes a short description"},
+                {"name": "Fresh Mozzarella B.L.T", "price": "11.95", "description": "Here goes a short description"},
+                {"name": "Spicy Turkey Club", "price": "13.95", "description": "Here goes a short description"},
+                {"name": "Avocado & Harvati Melt", "price": "12.95", "description": "Here goes a short description"},
+                {"name": "Tuna & Swiss Melt", "price": "11.95", "description": "Here goes a short description"} 
             ],
            
             "fromTheGriddle": [
@@ -168,38 +169,47 @@
             "hotDrinks": [
                 {"name": "Espresso", "price": "2.95", "description": "Macchiatos & Americanos available! Here goes a short description", "image":""},
                 {"name": "House Blend Coffee", "price": "2.50", "description": "Our own medium roast blend. Refills .75 (Bottomless cup with food)", "image":""},
-                {"name": "Cappuccino", "price": "4.50", "description": "Topped with cocoa", "image":""},
+                {"name": "Cappuccino", "price": "4.50", "description": "Topped with cocoa. Here goes a short description :)", "image":""},
                 {"name": "Viennese Expresso", "price": "4.50", "description": "Espresso & coffee topped with whipped cream & cocoa", "image":""},
-                {"name": "Latte", "price": "4.75", "description": "Mocha: add .50 , Pumpkin spice or Vermont maple: add .75", "image":""},
+                {"name": "Latte", "price": "4.75", "description": "Add mocha: .50 , Add Pumpkin Spice or Vermont Maple: .75", "image":""},
                 {"name": "Chocolatino", "price": "4.95", "description": "Espresso with steamed chocolate milk. Topped with whipped cream, cocoa, & chocolate syrup", "image":""},
                 {"name": "Maki Latte", "price": "2", "description": "Espresso, steamed milk, & foam layered in a tall glass. Only served hot & in house", "image":""},
                
                 {"name": "Chai Latte", "price": "4.25", "description": "Black tea flavored with honey, vanilla, ginger & natural spices. Steamed with milk (also available iced)", "image":""},
                 {"name": "Yerba Matte or Rooibos Latte", "price": "4.75", "description": "Two shots of tea with steamed soy milk & a shot of vanilla syrup", "image":""},
                
-                {"name": "Hot Chocolate", "price": "2.95/3.95", "description": "", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
-                {"name": "White Hot Chocolate", "price": "3.95/4.95", "description": "", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
-                {"name": "Steamer", "price": "2.95", "description": "Jumbo Steamed Milk", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
-                {"name": "Hot Mulled Cider", "price": "2.95/3.95", "description": "", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"}
+                {"name": "Hot Chocolate", "price": "2.95/3.95", "description": "Here goes a nice short description of this chocolate", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "White Hot Chocolate", "price": "3.95/4.95", "description": "Here goes a nice short description of this chocolate", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Steamer", "price": "2.95", "description": "Jumbo Steamed Milk. Here goes a nice short description", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
+                {"name": "Hot Mulled Cider", "price": "2.95/3.95", "description": "Here goes a nice short description of this Cider", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"}
             ],
 
             "coldDrinks": [
                 {"name": "Rao's Iced Coffee", "price": "4", "description": "Description of this cold brew coffee goes here, in this location", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/coldCoffeeExample.png"},
                 {"name": "Mem Cold Brewed Iced Tea", "price": "3", "description": "Black, Moroccan Mint Green, or Hibiscus Blend Herbal", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/coldCoffeeExample.png"},
-                {"name": "Polar Spring or Perrier", "price": "1.95/2.95", "description": ""},
-                {"name": "Coke, DietCoke, Sprite, Ginger Ale", "price": "2", "description": ""}
+                {"name": "Polar Spring or Perrier", "price": "1.95/2.95", "description": "", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/coldCoffeeExample.png"},
+                {"name": "Coke, DietCoke, Sprite, Ginger Ale", "price": "2", "description": "", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/coldCoffeeExample.png"}
             ],
             
             "Smoothies and Frappes": [
                 {"name": "Smoothie: Choose a Smootie Base", "price": "5.95", "description": "Whole or skim milk; orange, pineapple or grapefruit juice; soy, almond or oat milk (+ .95)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"},
-                {"name": "Smoothie: Chose two bases", "price": "5.95", "description": "Strawberry, Banana, Kale, Mango, Apple, Spinach, Mixed Berries. 1.25 for each addition beyond two. (Add Yogurt, Vanilla or Chocolate Ice Cream for 2.95 each, Add Chai for 1.95, or Espresso for 1.5)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"},            
-                {"name": "Frappe 1", "price": "0", "description": "Description of Frappe 1 goes here", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"}
-            ], 
+                {"name": "Smoothie: Chose two bases", "price": "5.95", "description": "Strawberry, Banana, Kale, Mango, Apple, Spinach, Mixed Berries. 1.25 for each addition beyond two. (Add Yogurt, Vanilla or Chocolate Ice Cream for 2.95 each, Add Chai for 1.95, or Espresso for 1.5)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"}       
+            ],
+
+            "dessert": [
+                {"name": "Creme Burlee", "price": "8.95", "description": "Here goes a small description"},
+                {"name": "Waffle Sunday", "price": "10", "description": "A hot Belgian waffle topped with vanilla or chocolate ice cream, whipped cream, caramel, and chocolate sauce"},
+                {"name": "Chocolate Cake", "price": "8.95", "description": "Here goes a small description"},
+                {"name": "Chocolate Chip Cookie", "price": "1.95", "description": "Here goes a small description"},
+                {"name": "Ice Cream Sandwich", "price": "8.95", "description": "Here goes a small description"},
+                {"name": "Cheesecake", "price": "8.95", "description": "Here goes a small description"}
+
+            ],
 
             "alcoholDrinks": [
-                {"name": "Alcohol Drink 1", "price": "1", "description": "This data is to be added"},
-                {"name": "Alcohol Drink 2", "price": "1", "description": "This data is to be added"},
-                {"name": "Alcohol Drink 3", "price": "1", "description": "This data is to be added"}
+                {"name": "Draft Beers", "price": "", "description": ""},
+                {"name": "Red Wines", "price": "", "description": ""},
+                {"name": "White Wines", "price": "", "description": ""}
             ]
         }
     }

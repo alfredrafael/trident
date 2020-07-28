@@ -53,7 +53,7 @@ const Eggwagons = () => {
                 {item.name}
               </h4>
             </CardHeader>
-            <CardImg top width="100%" src={item.image} alt="Card image cap" />
+           {/*  <CardImg top width="100%" src={item.image} alt="Card image cap" />  */}
             <CardBody>
               <CardText>{item.description}</CardText>
               <div style={{ float: "right" }}>{item.price}</div>

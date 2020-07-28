@@ -49,7 +49,7 @@ const FromTheGriddle = () => {
                 {item.name}
               </h4>
             </CardHeader>
-            <CardImg top width="100%" src={item.image} alt="Card image cap" />
+           {/*  <CardImg top width="100%" src={item.image} alt="Card image cap" />  */}
             <CardBody>
               <CardText>{item.description}</CardText>
               <div style={{ float: "right" }}>{item.price}</div>
@@ -73,7 +73,7 @@ const FromTheGriddle = () => {
             From The Griddle
           </h2>
 
-          <div style={{ display: "inline", marginLeft: "48.8%" }} className="float-margin">
+          <div style={{ display: "inline", marginLeft: "52.8%" }} className="float-margin">
             &nbsp;
             <i class="arrow left" style={{ marginBottom: ".5%" }}></i>
             &nbsp;

@@ -3,6 +3,7 @@
     color: white;
     height: 15vh;
     padding: 4% 0 6% 0;
+    margin-top: 3% !important;
 }
 
 #footer img {
@@ -30,10 +31,6 @@
         max-width: 60%;
         float: right;
         margin-right: 0;
-    }
-
-    #footer {
-       opacity: .9;
     }
 }
 
