@@ -16,7 +16,7 @@ const About = () => {
         <Container id="page-1">
         <Fade>
             <div style={{height: '100vh'}}>
-                    <h1>Page 1</h1>
+                    <h1>Trident</h1>
             </div>
         </Fade>
         </Container>
