@@ -14,17 +14,22 @@ const AppFooter = () => {
                     <Row>
 
                         <Col>
+
                         <img 
                             src='https://www.alfredorafael.com/wp-content/uploads/2020/07/AlfredoTridentLogoWhite.png' 
-                            style={{float: 'left', marginRight: '10%', marginTop: '-4.3%'}}
+                            style={{float: 'left', marginRight: '1%', marginTop: '-4.3%'}}
                             alt='Trident Logo' />
-                            <span style={{float: 'right', marginLeft: '-3%', marginTop: '-3.9%'}}> <strong>Trident Booksellers & Cafe </strong><br/> 338 Newbury Street <br/> Boston, MA 02115 | 617-267-8688</span>
+
+                            <strong className="store-name">Trident Booksellers & Cafe </strong>
+
                         </Col>
 
-                        <Col>
-                            
-                            
+                        
+
+                        <Col style={{float: 'left'}} className='store-info'>
+                        338 Newbury Street Boston, MA 02115 <br/> 617-267-8688
                         </Col>
+
 
                     </Row>
 

@@ -1,123 +1,98 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState, Fragment } from "react";
+import '../../App.css';
 import {
   Card,
   CardBody,
-  Container,
-  CardTitle,
   CardText,
   CardImg,
-  CardImgOverlay,
   CardHeader,
-  CardFooter,
   Button,
-  Col,
   Row,
 } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import menuData from "../../menuData.json";
 
-const extrasMenu = menuData[0].menu.extras;
+const targetMenu = menuData[0].menu.extras;
 
-console.log(extrasMenu);
-
-const Extras = () => {
+const AlcoholDrinks = () => {
   const [state, setState] = useState([]);
 
   useEffect(() => {
-    setState(extrasMenu);
+    setState(targetMenu);
   }, []);
 
   const renderItems = state.map((item, i) => {
     return (
       <div key={i} className="col-md-6 col-sm-12">
-      <a href={item.url} style={{ textDecoration: "none", color: "inherit" }}>
-        <Card
-          key={i}
-          className="highlight-on-hover eggDishes"
-          style={{ margin: "2% 1%", borderRadius: "15px", borderRadius: '7px'}}
-        >
-        <CardHeader
-            style={{
-              background: "#7a1f1f",
-              color: "white",
-              height: "20%",
-              borderTopLeftRadius: "7px",
-              borderTopRightRadius: "7px",
-            }}
+        <a href={item.url} style={{ textDecoration: "none", color: "inherit" }}>
+        <Fade>
+          <Card
+            key={i}
+            className="highlight-on-hover"
+            style={{ margin: "2% 1%", borderRadius: "15px" }}
           >
-              <h4 style={{margin: "-1% 0", textAlign: 'center'}}>
-                {item.name}
-              </h4>
-             
-          </CardHeader>
-      {/*   <CardImg top width="100%" src={item.image} alt="Card image cap" />  */}
-        <CardBody>
-        <CardText><span className="final-description">{item.description}</span></CardText>
-        <div style={{float: 'right'}}> 
-          {item.price}
-        </div>
-        </CardBody>
-      </Card>
-      </a>
-    </div>
+            <CardHeader
+              style={{
+                background: "#7a1f1f",
+                color: "white",
+                height: "20%",
+                borderTopLeftRadius: "15px",
+                borderTopRightRadius: "15px",
+                textAlign: 'center'
+              }}
+            >
+              <h4 style={{ margin: "-1% 0" }}>{item.name}</h4>
+            </CardHeader>
+
+            <CardBody>
+              <CardText style={{ textDecoration: "none", color: "inherit" }}>
+                {item.description}
+              </CardText>
+            </CardBody>
+          </Card>
+          </Fade>
+        </a>
+      </div>
     );
   });
 
   return (
     <React.Fragment>
-    <Fade>
+        <div style={{ paddingTop: "3%", width: '100%'}} id="drinks">
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <h2
+              style={{
+                fontWeight: "bolder",
+                marginBottom: "1%",
+              }}
+            >
+              Extras
+            </h2>
 
-    <div style={{ paddingTop: "3%" }} id="extras">
-        
-      <div style={{display: 'flex'}}>
-        
-        
-
-      <h2 style={{
-              fontWeight: 'bolder',
-              marginBottom: '1%',
-          }}
-      >
-      
-          Extras 
-          </h2>
-
-
-          <div 
-          className="float-margin"
-          style={{display: 'inline', marginLeft: '66.4%'}} 
-          >
-
-          &nbsp;
-          <i class="arrow left" style={{marginBottom: '.5%'}}></i>
-          &nbsp;
-
-          <Button             
-          className='back-button-outlined back-to-menu' 
-          outline 
-          style={{border: '1px solid #7a1f1f', color: '#7a1f1f'}}
-          href="/"
-          bsClass="custom-hover"
-          size="sm"
-          > 
-
-          <span>BACK TO MENU</span>           
-          </Button>
-          
-          
-        
-          </div>
+            <div class="float-margin" style={{ display: "inline" }}>
+              &nbsp;
+              <i class="arrow left" style={{ marginBottom: ".5%" }}></i>
+              &nbsp;
+              <Button
+                className="back-button-outlined"
+                outline
+                style={{ border: "1px solid #7a1f1f", color: "#7a1f1f" }}
+                href="/"
+                bsClass="custom-hover"
+                size="sm"
+              >
+                <span>BACK TO MENU</span>
+              </Button>
+            </div>
           </div>
 
-
-        <div className="row">
-          <br />
-          {renderItems}
+          <div className="row">
+            <br />
+            {renderItems}
+          </div>
         </div>
-      </div>
-      </Fade>
     </React.Fragment>
   );
 };
 
-export default Extras;
+export default AlcoholDrinks;

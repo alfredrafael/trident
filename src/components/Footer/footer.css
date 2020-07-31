@@ -7,7 +7,7 @@
 }
 
 #footer img {
-    max-width: 16%;
+    max-width: 15%;
     float: right;
 }
 
@@ -37,15 +37,66 @@
 
 /*iPhone 5*/
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+    #footer img {
+        max-width: 25%;
+        float: right;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
     
+    .store-name {
+        font-size: 100% !important;
+    }
+
+    .store-info {
+        font-size: 83% !important;
+    }
+}
+
+
+
+/*Galaxy 5s*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    #footer img {
+        max-width: 20%;
+        float: right;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
+    
+    .store-name {
+        font-size: 100% !important;
+    }
+
+    .store-info {
+        font-size: 83% !important;
+    }
 }
 
 /*iPhone XR*/
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
     #footer img {
-        max-width: 60%;
+        max-width: 25%;
         float: right;
-        margin-right: 1.5%;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
+    
+    .store-name {
+        font-size: 100% !important;
+    }
+
+    .store-info {
+        font-size: 83% !important;
     }
 }
 
@@ -53,18 +104,43 @@
 /*iPhone 6/7/8*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
     #footer img {
-        max-width: 60%;
+        max-width: 20%;
         float: right;
-        margin-right: 1.5%;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
+    
+    .store-name {
+        font-size: 55% !important;
+    }
+
+    .store-info {
+        font-size: 70% !important;
     }
 }
 
 /*iPhone 6+/7+/8+ */
-@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-device-pixel-ratio: 3) { 
     #footer img {
-        max-width: 60%;
+        max-width: 20%;
         float: right;
-        margin-right: 1.5%;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
+    
+    #footer .store-name {
+        font-size: 30% !important;
+    }
+
+    .store-info {
+        font-size: 70% !important;
     }
 }
 
@@ -73,21 +149,75 @@
 /*iPhone X*/
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     #footer img {
-        margin-right: 2.5%;
+        max-width: 20% !important;
+        float: right;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
+
+    .store-info {
+        font-size: 83% !important;
     }
 }
+
 
 /*iPhone X & XS*/
 @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
     #footer img {
-        margin-right: 2.5%;
+        max-width: 20% !important;
+        float: right;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
+
+    .store-info {
+        font-size: 83% !important;
     }
 }
+
+
+/*Samsung Galaxy 9/S Media Queries (In terms of Mobile only)*/
+@media only screen and (min-width: 360px) and (max-width: 767px) {
+    #footer img {
+        max-width: 20% !important;
+        float: right;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
+
+    .store-info {
+        font-size: 83% !important;
+    }
+}
+
 
 /* iphone XS Max */
 @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (-webkit-device-pixel-ratio: 3) {
     #footer img {
-        margin-right: 2.5%;
+        max-width: 25%;
+        float: right;
+        margin-right: 0;
+    }
+
+    #footer {
+        height: 20% !important;
+    }
+    
+    .store-name {
+        font-size: 100% !important;
+    }
+
+    .store-info {
+        font-size: 83% !important;
     }
 }
 

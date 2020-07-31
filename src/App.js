@@ -19,6 +19,9 @@ import HotDrinks from './components/HotDrinks';
 import ColdDrinks from './components/ColdDrinks';
 import Aside from './components/Aside';
 import Extras from './components/Extras';
+import AlcoholDrinks from './components/AlcoholDrinks';
+import CrispyAndDelicious from './components/CrispyAndDelicious';
+import Salads from './components/Salads';
 import './components/Aside/aside.css';
 import $ from 'jquery';
 
@@ -51,6 +54,11 @@ const App = () => {
           <Route path="/hot-drinks" component={HotDrinks} />
           <Route path="/cold-drinks" component={ColdDrinks} />
           <Route path="/extras" component={Extras} />
+          <Route path="/alcohol-drinks" component={AlcoholDrinks} />
+          <Route path="/crispy-and-delicious" component={CrispyAndDelicious} />
+          <Route path="/salads" component={Salads} />
+
+
 
 
           {/* Alcohol/Cold/Hot/Frappes drinks: create components and add here*/}
