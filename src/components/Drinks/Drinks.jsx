@@ -1,11 +1,8 @@
 import React, {useEffect, useState, Fragment} from 'react';
 import './drinks.css';
-import Aside from '../Aside/Aside';
-import { Card, CardBody, Container, CardTitle, CardText, CardImg, CardImgOverlay, CardHeader, CardFooter, Button } from 'reactstrap';
-import {Link} from 'react-router-dom';
+import { Card, CardBody, CardText, CardImg, CardHeader, Button, Row } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import menuData from '../../menuData.json';
-import { $ } from 'jquery';
 
 
 const drinksMenu = menuData[0].menu.drinks
@@ -47,7 +44,7 @@ const Drinks = () => {
 
         <div style={{paddingTop: '3%'}} id="drinks">
 
-        <div style={{display: 'flex'}}>
+        <div style={{display: 'flex', justifyContent: 'space-between'}}>
         
         
 
@@ -62,7 +59,7 @@ const Drinks = () => {
 
 
             <div class="float-margin"
-            style={{display: 'inline', marginLeft: '64%'}} 
+            style={{display: 'inline'}} 
             >
             
             &nbsp;

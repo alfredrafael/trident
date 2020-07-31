@@ -795,45 +795,13 @@
         text-align: center;
     }
 
-    #drinks .float-margin {
-        margin-left: 16% !important;
-        padding-top: 6.1%;
-    }
-
-    #hotDrinks .float-margin {
-        margin-left: 12% !important;
-        padding-top: 6.1%;
-    }
-
     #hotDrinks .back-to-menu,
     #coldDrinks .back-to-menu,
-    #burgers .back-to-menu
-    {
+    #burgers .back-to-menu {
         display: none;
-    }
-
-    #coldDrinks .float-margin {
-        margin-left: 12% !important;
-        padding-top: 6.1%;
-    }
-
-    #eggDishes .float-margin {
-        margin-left: 16% !important;
-        padding-top: 6.1%;
-    }
-
-    #eggWagons .float-margin {
-        margin-left: 0% !important;
-        padding-top: 0%;
-    }
-
-    #fromTheGriddle .float-margin {
-        margin-left: 0% !important;
-        padding-top: 5.20%;
     }
     
     .arrow.left {
         display: none !important;
     }
-
 }

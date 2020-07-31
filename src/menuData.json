@@ -29,7 +29,7 @@
                 {"name": "Home fries", "price": "3.95", "description": "Here goes a short description of the Fries (if any)"},
                 {"name": "Vanilla or Straberry Yogurt", "price": "3.95", "description": "Here goes a short description these yougurts"}
             ],
-            
+
             "extras": [
                 {"name": "Add Pure Vermont maple syrup", "price": "2.95$", "description": "Here goes a short description"},
                 {"name": "Single Egg", "price": "2.75", "description": "Here goes a short description"},
@@ -174,10 +174,8 @@
                 {"name": "Latte", "price": "4.75", "description": "Add mocha: .50 , Add Pumpkin Spice or Vermont Maple: .75", "image":""},
                 {"name": "Chocolatino", "price": "4.95", "description": "Espresso with steamed chocolate milk. Topped with whipped cream, cocoa, & chocolate syrup", "image":""},
                 {"name": "Maki Latte", "price": "2", "description": "Espresso, steamed milk, & foam layered in a tall glass. Only served hot & in house", "image":""},
-               
                 {"name": "Chai Latte", "price": "4.25", "description": "Black tea flavored with honey, vanilla, ginger & natural spices. Steamed with milk (also available iced)", "image":""},
-                {"name": "Yerba Matte or Rooibos Latte", "price": "4.75", "description": "Two shots of tea with steamed soy milk & a shot of vanilla syrup", "image":""},
-               
+                {"name": "Yerba Matte or Rooibos Latte", "price": "4.75", "description": "Two shots of tea with steamed soy milk & a shot of vanilla syrup", "image":""},         
                 {"name": "Hot Chocolate", "price": "2.95/3.95", "description": "Here goes a nice short description of this chocolate", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
                 {"name": "White Hot Chocolate", "price": "3.95/4.95", "description": "Here goes a nice short description of this chocolate", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},
                 {"name": "Steamer", "price": "2.95", "description": "Jumbo Steamed Milk. Here goes a nice short description", "image":"https://www.alfredorafael.com/wp-content/uploads/2020/07/coffeePic.png"},

@@ -67,8 +67,8 @@ const Eggwagons = () => {
   return (
     <React.Fragment>
       <div style={{ paddingTop: "3%" }} id="eggWagons">
-        <div style={{ display: "flex" }}>
-          <h2
+      <div style={{ display: "flex", justifyContent: 'space-between' }}>
+      <h2
             style={{
               fontWeight: "bolder",
               marginBottom: "1%",
@@ -77,7 +77,7 @@ const Eggwagons = () => {
             Trident Eggwagons
           </h2>
 
-          <div style={{ display: "inline", marginLeft: "48.8%" }} className="float-margin">
+          <div style={{ display: "inline"}} className="float-margin">
             &nbsp;
             <i class="arrow left" style={{ marginBottom: ".5%" }}></i>
             &nbsp;

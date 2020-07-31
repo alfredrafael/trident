@@ -72,7 +72,7 @@ const HotDrinks = () => {
 
     <div style={{ paddingTop: "3%" }} id="hotDrinks">
         
-      <div style={{display: 'flex'}}>
+    <div style={{display: 'flex', justifyContent: 'space-between'}}>
         
         
 
@@ -87,7 +87,7 @@ const HotDrinks = () => {
 
 
           <div 
-          style={{display: 'inline', marginLeft: '45.7%'}} 
+          style={{display: 'inline'}} 
           class="float-margin"
           >
 

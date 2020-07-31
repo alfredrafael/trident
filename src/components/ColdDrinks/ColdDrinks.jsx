@@ -72,7 +72,7 @@ const ColdDrinks = () => {
     <React.Fragment>
       <div style={{ paddingTop: "3%" }} id="coldDrinks">
         
-      <div style={{display: 'flex'}}>
+      <div style={{display: 'flex', justifyContent: 'space-between'}}>
         
         
 
@@ -88,7 +88,7 @@ const ColdDrinks = () => {
 
           <div 
           className="float-margin"
-          style={{display: 'inline', marginLeft: '47.5%'}} 
+          style={{display: 'inline'}} 
           >
 
           <Button             

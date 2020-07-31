@@ -63,7 +63,7 @@ const FromTheGriddle = () => {
   return (
     <React.Fragment>
       <div style={{ paddingTop: "3%" }} id="fromTheGriddle">
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", justifyContent: 'space-between' }}>
           <h2
             style={{
               fontWeight: "bolder",
@@ -73,7 +73,7 @@ const FromTheGriddle = () => {
             From The Griddle
           </h2>
 
-          <div style={{ display: "inline", marginLeft: "52.8%" }} className="float-margin">
+          <div style={{ display: "inline",}} className="float-margin">
             &nbsp;
             <i class="arrow left" style={{ marginBottom: ".5%" }}></i>
             &nbsp;
