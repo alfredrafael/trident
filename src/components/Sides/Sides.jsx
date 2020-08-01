@@ -12,9 +12,9 @@ import {
 import Fade from "react-reveal/Fade";
 import menuData from "../../menuData.json";
 
-const targetMenu = menuData[0].menu.soups;
+const targetMenu = menuData[0].menu.sides;
 
-const Salads = () => {
+const Sides = () => {
   const [state, setState] = useState([]);
 
   useEffect(() => {
@@ -66,7 +66,7 @@ const Salads = () => {
                 marginBottom: "1%",
               }}
             >
-              Soups
+              Sides
             </h2>
 
             <div class="float-margin" style={{ display: "inline" }}>
@@ -95,4 +95,4 @@ const Salads = () => {
   );
 };
 
-export default Salads;
+export default Sides;
