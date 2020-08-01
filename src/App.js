@@ -24,6 +24,7 @@ import Sides from './components/Sides';
 import CrispyAndDelicious from './components/CrispyAndDelicious';
 import Salads from './components/Salads';
 import './components/Aside/aside.css';
+import FrappesAndSmoothies from './components/FrappesAndSmoothies';
 import $ from 'jquery';
 
 
@@ -59,6 +60,8 @@ const App = () => {
           <Route path="/crispy-and-delicious" component={CrispyAndDelicious} />
           <Route path="/salads" component={Salads} />
           <Route path="/sides" component={Sides} />
+          <Route path="/frappes-and-smoothies" component={FrappesAndSmoothies} />
+
 
 
 

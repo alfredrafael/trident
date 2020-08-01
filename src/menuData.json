@@ -196,9 +196,9 @@
                 {"name": "Coke, DietCoke, Sprite, Ginger Ale", "price": "2", "description": "", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/coldCoffeeExample.png"}
             ],
             
-            "Smoothies and Frappes": [
-                {"name": "Smoothie: Choose a Smootie Base", "price": "5.95", "description": "Whole or skim milk; orange, pineapple or grapefruit juice; soy, almond or oat milk (+ .95)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"},
-                {"name": "Smoothie: Chose two bases", "price": "5.95", "description": "Strawberry, Banana, Kale, Mango, Apple, Spinach, Mixed Berries. 1.25 for each addition beyond two. (Add Yogurt, Vanilla or Chocolate Ice Cream for 2.95 each, Add Chai for 1.95, or Espresso for 1.5)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"}       
+            "smoothiesAndFrappes": [
+                {"name": "Choose a Smootie Base", "price": "5.95", "description": "Whole or skim milk; orange, pineapple or grapefruit juice; soy, almond or oat milk (+ .95)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"},
+                {"name": "Chose two bases", "price": "5.95", "description": "Strawberry, Banana, Kale, Mango, Apple, Spinach, Mixed Berries. 1.25 for each addition beyond two. (Add Yogurt, Vanilla or Chocolate Ice Cream for 2.95 each, Add Chai for 1.95, or Espresso for 1.5)", "image": "https://www.alfredorafael.com/wp-content/uploads/2020/07/smoothieExample.png"}       
             ],
 
             "dessert": [
