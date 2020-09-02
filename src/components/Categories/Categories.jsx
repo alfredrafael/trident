@@ -53,7 +53,7 @@ const MainMenu = () => {
                 marginBottom: '1.3%',
             }}>
         
-        Serving our full menu, all day
+        Serving our full menu, all day!
         
         </h2>
 
